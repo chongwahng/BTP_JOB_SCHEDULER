@@ -1,0 +1,10 @@
+---
+applications:
+- name: rapnodeApp1
+  host: rapnode1
+  path: appfolder
+  memory: 64M
+  buildpack: nodejs_buildpack
+  services:
+    - rapNode
+    - BTP-JOB_SCHEDULER
